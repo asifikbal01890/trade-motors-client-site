@@ -1,0 +1,13 @@
+.blog-img .side-text {
+    color: rgb(255, 97, 5);
+    font-weight: 600;
+    color: white;
+    display: none;;
+} 
+.blog-img:hover .side-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: .6rem;
+    text-decoration: none;
+} 

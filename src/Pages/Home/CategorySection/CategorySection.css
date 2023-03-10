@@ -1,0 +1,23 @@
+.bg-category {
+    background: url(../../../img/Background/category.jpg) no-repeat fixed center/cover;
+    -webkit-clip-path: polygon(100% 0, 100% 84%, 18% 100%, 0 80%, 0 0);
+    display: block;
+    position: relative;
+    padding: 120px 0 180px;
+    clip-path: polygon(100% 0, 100% 84%, 18% 100%, 0 80%, 0 0);
+}
+.bg-category:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(to left, rgba(4, 33, 63, 0.5) 20% , rgba(4, 33, 63, 0.5) 100%);
+}
+@media only screen and (max-width: 768px) {
+    .bg-category {
+         clip-path: polygon(100% 0, 100% 94%, 18% 100%, 0 95%, 0 0);
+    }
+  }

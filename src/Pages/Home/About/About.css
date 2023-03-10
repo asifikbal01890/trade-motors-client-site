@@ -1,0 +1,9 @@
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    /* overflow-x: ;
+    overflow-y: ;  */
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
