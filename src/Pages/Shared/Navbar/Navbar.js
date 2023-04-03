@@ -29,7 +29,7 @@ const NavBar = () => {
                     <label htmlFor="dashboard-drawer" tabIndex={1} className="btn btn-ghost drawer-button lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <Link to="/" className="normal-case text-xl font-bold text-accent"><span className='text-primary'>MOTOR</span>CYCLES</Link>
+                    <Link to="/" className="normal-case text-xl font-bold text-accent"><span className='text-primary'>TRADE</span>Motors</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu-horizontal gap-6 rounded-lg font-semibold text-accent text-lg pr-4">

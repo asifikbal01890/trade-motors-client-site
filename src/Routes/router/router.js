@@ -18,6 +18,7 @@ import AdminRoute from '../AdminRoute/AdminRoute';
 import BuyerRoute from '../BuyerRoute/BuyerRoute';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import SellerRoute from '../SellerRoute/SellerRoute';
+import NotFoundPage from '../../Pages/NotFoundPage/NotFoundPage';
 
 
 const router = createBrowserRouter([
@@ -82,20 +83,16 @@ const router = createBrowserRouter([
                 path: "/dashboard/allbuyers",
                 element:<AdminRoute><AllBuyers></AllBuyers></AdminRoute>
             },
-            // {
-            //     path: "/dashboard/reporteditems",
-            //     element:<AdminRoute><ReportedItems></ReportedItems></AdminRoute>
-            // },
             {
                 path: "/dashboard/myorder",
                 element:<BuyerRoute><MyOrders></MyOrders></BuyerRoute>
             },
          ]
      },
-    //  {
-    //      path: "*",
-    //      element: <PageNotFound></PageNotFound>
-    //  }
+     {
+         path: "*",
+         element: <NotFoundPage></NotFoundPage>
+     }
 ])
 
 export default router;
