@@ -7,6 +7,7 @@ import BlogSection from './BlogSection/BlogSection';
 import CategorySection from './CategorySection/CategorySection';
 import OurAim from './OurAim/OurAim';
 import SubscribeSection from './SubscribeSection/SubscribeSection';
+import TotalUser from './TotalUser/TotalUser';
 
 
 const Home = () => {
@@ -17,8 +18,9 @@ const Home = () => {
             <OurAim></OurAim>
             <CategorySection
                 bikeCategories={bikeCategories}
-            ></CategorySection>
+                ></CategorySection>
             <AdsSection></AdsSection>
+                <TotalUser></TotalUser>
             <About></About>
             <BlogSection></BlogSection>
             <SubscribeSection>
