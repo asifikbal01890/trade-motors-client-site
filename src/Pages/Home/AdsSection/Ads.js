@@ -23,9 +23,9 @@ const Ads = ({ adsInfo }) => {
     return (
         <div>
             <div className="hero">
-                <div className="hero-content h-full flex-col gap-16 lg:flex-row-reverse">
-                    <div className='lg:w-[60%] h-full bg-base-200'>
-                    <figure className='h-full flex justify-center items-center relative'><img src={picture} alt="Shoes" className='w-[90%]' />
+                <div className="hero-content  flex-col gap-16 lg:flex-row-reverse">
+                    <div className='lg:w-[60%] bg-base-200'>
+                    <figure className='flex justify-center items-center relative'><img src={picture} alt="Shoes" className='w-[90%] lg:h-[426px]' />
                         <div className='flex justify-center absolute items-center h-[100%] w-full font-[Oswald] duration-500 hover:bg-black hover:bg-opacity-60 z-50 blog-img'>
                             <div className='w-[100%] h-[100%] flex justify-center duration-1000 translate-y-0 hover:translate-y-24'>
                             <Link to={`/bikes/${id}`}><p className='w-[100px] py-5 text-secondary side-text text-img text-2xl uppercase'>buy now</p></Link>

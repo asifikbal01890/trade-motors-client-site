@@ -8,6 +8,7 @@ import CategorySection from './CategorySection/CategorySection';
 import OurAim from './OurAim/OurAim';
 import SubscribeSection from './SubscribeSection/SubscribeSection';
 import TotalUser from './TotalUser/TotalUser';
+import Company from './Company/Company';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 ></CategorySection>
             <AdsSection></AdsSection>
                 <TotalUser></TotalUser>
+            <Company></Company>
             <About></About>
             <BlogSection></BlogSection>
             <SubscribeSection>
