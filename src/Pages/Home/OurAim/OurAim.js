@@ -4,11 +4,11 @@ import aimImgTwo from '../../../img/aim section img 2.jpg'
 
 const OurAim = () => {
     return (
-        <div className="hero my-16">
+        <div className="hero my-16 w-[95%] md:w-[92%] lg:w-[100%] mx-auto">
             <div className="grid lg:grid-cols-2 justify-center flex-col gap-16 max-w-[1240px] mx-auto px-5">
                 <div className='relative'>
                     <img src={aimImg} className="w-[100%]" alt='' />
-                    <img className="absolute bottom-[-9%] left-[52%] w-[55%] border-l-[16px] border-t-[16px] border-white " src={aimImgTwo} alt="" />
+                    <img className="absolute bottom-[-9%] left-[52%] w-[55%]  border-l-[16px] border-t-[16px] border-white " src={aimImgTwo} alt="" />
                 </div>
                 <div className='text-start items-start md:mt-11'>
                     <h1 className="text-5xl font-bold font-[Oswald] uppercase">Our Aim is to provide great deal</h1>

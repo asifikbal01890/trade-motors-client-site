@@ -37,7 +37,7 @@ const Company = () => {
                             <div className='w-full'>
                                 <div className='flex items-center justify-between'>
                                     <h3 className='text-xl font-semibold'>{info.name}</h3>
-                                    <div className="tooltip" data-tip={info.location}>
+                                    <div className="tooltip tooltip-left" data-tip={info.location}>
                                     <button className='text-[#e63419c1] hover:scale-125 duration-300'><FaLocationArrow></FaLocationArrow></button>
                                     </div>  
                                 </div>

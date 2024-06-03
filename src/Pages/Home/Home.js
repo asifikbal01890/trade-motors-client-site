@@ -15,14 +15,16 @@ const Home = () => {
     const bikeCategories = useLoaderData();
     return (
         <div>
-            <Banner></Banner>
+                <Banner></Banner>
             <OurAim></OurAim>
             <CategorySection
                 bikeCategories={bikeCategories}
-                ></CategorySection>
+            ></CategorySection>
             <AdsSection></AdsSection>
-                <TotalUser></TotalUser>
-            <Company></Company>
+            <TotalUser></TotalUser>
+            <div className='hidden'>
+            </div>
+                <Company></Company>
             <About></About>
             <BlogSection></BlogSection>
             <SubscribeSection>

@@ -26,7 +26,7 @@ const AdsSection = () => {
       };
 
     return (
-        <div className='mb-28 max-w-[1440px] mx-auto px-5'>
+        <div className='mb-28 max-w-[1440px] mx-auto px-6'>
             <div>
                 <h1 className='font-[Oswald] uppercase text-4xl'>Best Bikes For You</h1>
                 <p className='text-md uppercase'>We recommend these bikes to you</p>
